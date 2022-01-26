@@ -1,0 +1,74 @@
+body{
+    background-image: url('bg.jpeg');
+    text-align: center;
+}
+#pirate{
+    width: 50px;
+    position: absolute;
+    left: 60px;
+    top: 0;
+    transition: 1s;
+    pointer-events: none;
+}
+#game{
+    /* background: rgb(224, 64, 64); */
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+#map{
+    width: 100%;
+}
+h1{
+    display:inline-block;
+    
+color: rgba(0, 0, 0, 0);
+text-align: center;
+font-size: 70px;
+font-family: 'Marck Script', cursive;
+background: rgb(210,58,81);
+background: linear-gradient(90deg, rgba(210,58,81,0.966010085674895) 0%, rgba(253,225,29,0.9576067243303571) 48%, rgba(252,152,69,0.9744134470194328) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+}
+h2{
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+#treasure{
+    width: 40px;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transform: scale(1);
+    pointer-events: none;
+    opacity: 0;
+    transition: 5s;
+    /* box-shadow: 0 0 100px gold; */
+    filter: drop-shadow(0px 0px 100px gold);
+
+}
+#newbutton{
+    background-color: rgb(0, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(8, 3, 3);
+    border: 1px solid #222;
+    font-family: 'Marck Script', cursive;
+    line-height: 40px;
+    display: inline-block;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 20px;
+
+}
+#newbutton:hover{
+    transform: scale(1.1);
+}
+#map:hover{
+    /* background-color: gold; */
+    /* box-shadow: 0 0 10px gold; */
+    filter: drop-shadow(0 0 10px gold) saturate(2);
+}
